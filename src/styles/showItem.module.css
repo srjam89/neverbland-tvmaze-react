@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+
+section {
+    margin-bottom: 100px;
+}
+
+.breadcrumb {
+    margin: 15px;
+}
+
+.posterContainer {
+    display: flex;
+}
+
+.poster {
+    min-width: 300px;
+    height: auto;
+}
+
+.overview {
+    padding-left: 50px;
+    padding-top: 50px;
+   
+}
+
+.title {
+    color: black;
+    font-family: 'Concert One', sans-serif;
+    font-size: 40px;
+}
+
+.summaryText {
+    padding-top: 50px;
+    font-family: 'roboto', sans-serif;
+}
+
+.showInfo {
+    width: 80%;
+    margin: auto;
+}
+
+.moreInfo {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'roboto', sans-serif;
+    font-size: 20px;
+    margin: 15px 0;
+}
+
+.category {
+    font-weight: 700;
+}
+
+.result {
+    color: #C8C8C8;
+    font-weight: 700;
+}
+
+hr {
+    height: 2px;
+    background-color: lightgray;
+    border: none;
+}
+
+aside > h2 {
+    font-family: 'roboto', sans-serif;
+    text-align: center;
+    margin: 25px 0;
+}
+
+@media screen and (max-width: 390px) {
+    .posterContainer {
+        display: block;
+    }
+    .poster {
+        width: 100%;
+    }
+    .overview {
+        padding: 0;
+    }
+    .summaryText {
+        text-align: center;
+    }
+}
