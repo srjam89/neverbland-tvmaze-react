@@ -8,7 +8,7 @@ const Navigation = () => {
   const shortDate = date.format("DD/MM/YYYY HH:mm");
   return (
     <div className={styles.nav}>
-      <h1>TVSchedule</h1>
+      <h1 id="top-page-link">TVSchedule</h1>
       <p className={styles.date}>{dateString}</p>
       <p className={styles.shortDate}>{shortDate}</p>
     </div>

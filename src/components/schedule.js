@@ -104,7 +104,7 @@ const Schedule = () => {
       </Button>
       <div className={scheduleCSS.topLink}>
         <p>
-          <a href="/">
+          <a href="#top-page-link">
             Top of Page <KeyboardDoubleArrowUpIcon />
           </a>
         </p>
